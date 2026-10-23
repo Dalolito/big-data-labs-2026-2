@@ -26,11 +26,11 @@ La Tabla 1 resume lo que muestran los planes de ejecución del OLTP con 50.000 t
 
 <h2 align="center">2. Diseño del esquema estrella (Parte B)</h2>
 
-![Figura 1a](diagrama_oltp.png)
+<img width="1420" height="570" alt="Diagrama en blanco - Página 1" src="https://github.com/user-attachments/assets/cd860e39-bf5a-4a98-b4f9-9021593e91d4" />
 
 *Figura 1a. Antes: esquema transaccional `oltp` (3FN).*
 
-![Figura 1b](diagrama_estrella.png)
+<img width="1660" height="1070" alt="Diagrama en blanco - Modelo estrella DW" src="https://github.com/user-attachments/assets/60b0f5c0-c499-4c87-8413-9f842536969f" />
 
 *Figura 1b. Después: esquema estrella `dw`. Grano de `fact_transactions`: una fila por transacción.*
 
@@ -61,7 +61,7 @@ Las tres consultas se midieron en ambos modelos con 50K, 500K y 1M transacciones
 
 *Tabla 2. Execution Time (ms) de cada consulta según el volumen de datos.*
 
-![Figura 2](grafica_q3.png)
+<img width="1240" height="520" alt="grafica_q3" src="https://github.com/user-attachments/assets/5f44c892-fa54-498c-90e4-65b80960ba3e" />
 
 *Figura 2. Crecimiento del tiempo de Q3 en cada modelo.*
 
